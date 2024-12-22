@@ -1,0 +1,26 @@
+prebuilt_etc {
+    name: "permissions_org.fdroid.fdroid.privileged.xml",
+
+    src: "permissions_org.fdroid.fdroid.privileged.xml",
+    relative_install_path: "permissions",
+
+}
+
+android_app {
+    name: "F-DroidPrivilegedExtension",
+
+    privileged: true,
+    sdk_version: "current",
+    // Keep IPackageInstallObserver and IPackageDeleteObserver
+    optimize: {
+        enabled: false,
+    },
+    srcs: [
+        "java/**/*.java",
+        "aidl/**/I*.aidl",
+    ],
+    aidl: {
+        local_include_dirs: ["aidl"],
+    },
+    required: ["permissions_org.fdroid.fdroid.privileged.xml"],
+}
