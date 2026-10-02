@@ -1,0 +1,3 @@
+* Přidány nové jazyky: čeština, maďarština, ujgurština
+
+* přidána podpora sestavení s vlastní značkou

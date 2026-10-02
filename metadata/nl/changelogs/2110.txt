@@ -1,0 +1,1 @@
+Correctie van installatie/verwijderingsprobleem op Android 10/Q (#47)

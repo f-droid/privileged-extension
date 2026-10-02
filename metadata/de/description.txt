@@ -1,8 +1,8 @@
-Hinweis: Für diese Rechteerweiterung benötigt F-Droid Root-Rechte,
-um sie als System-App mit Sonderrechten installieren zu können.
+Hinweis: F-Droid benötigt Root-Rechte, damit die Rechteerweiterung
+als System-App mit Sonderrechten installiert werden kann.
 
-https://f-droid.org/packages/org.fdroid.fdroid kann Systemprivilegien oder Berechtigungen
-zur selbständigen Installation, Aktualisierung oder Entfernung von Anwendungen nutzen.
+https://f-droid.org/packages/org.fdroid.fdroid kann Systemprivilegien oder -berechtigungen nutzen,
+um selbständig Installationen, Aktualisierungen oder Deinstallationen von Anwendungen durchzuführen.
 Der einzige Weg, solche Sonderrechte zu erhalten, führt über eine Installation als System-App.
 
 Hier kommt die Rechteerweiterung ins Spiel – als separate, deutlich kleinere App,

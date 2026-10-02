@@ -1,13 +1,21 @@
-Nota: F-Droid necesita permisos de administrador («root») para instalar la «Extensión con permisos de sistema» como una aplicación privada de sistema.
+Nota: F-Droid requiere privilegios de root para instalar Privileged Extension
+como un sistema "priv-app".
 
-https://f-droid.org/packages/org.fdroid.fdroid puede usar los privilegios o permisos del sistema para instalar, actualizar y eliminar aplicaciones de manera autónoma. La única manera de obtener esos privilegios es ser una aplicación de sistema.
+https://f-droid.org/packages/org.fdroid.fdroid puede hacer uso de los privilegios o permisos del sistema
+para instalar, actualizar y eliminar aplicaciones por su cuenta. La única manera de
+obtener esos privilegios es convertirse en una aplicación del sistema.
 
-Aquí es donde la Extensión con permisos de sistema entra en juego - siendo una aplicación separada y mucho más pequeña, puede instalarse como aplicación de sistema y comunicarse con la aplicación principal vía AIDL IPC.
+Aquí es donde entra en juego la Extensión Privilegiada: ser una aplicación separada
+y mucho más pequeño, se puede instalar como una aplicación del sistema y comunicarse
+con la aplicación principal a través de AIDL IPC.
 
 Esto tiene varias ventajas:
 
-* Uso reducido de disco en la partición de sistema
-* Las actualizaciones de sistema no eliminan F-Droid
-* El proceso de instalación en el sistema vía «root» es más seguro
+* Reducción del uso del disco en la partición del sistema
+* Las actualizaciones del sistema no eliminan F-Droid
+* El proceso de instalación en el sistema a través de la raíz es más seguro
 
-En lugar de esta compilación, la mayoría de los usuarios querrán instalar el fichero ZIP de actualización «al vuelo» («Over-The-Air», OTA) llamado https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota. Éste está aquí para actualizar la Extensión con permisos de sistema usando el ZIP OTA.
+En lugar de esta compilación, la mayoría de los usuarios querrán instalar el
+El archivo ZIP de actualización "Over-The-Air" (OTA) se llama
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota.  Esto está aquí para actualizar
+Extensión Privilegiada cuando se ha instalado mediante el ZIP OTA.

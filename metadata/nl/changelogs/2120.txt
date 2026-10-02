@@ -1,0 +1,3 @@
+* nieuwe API-methode: getInstalledPackages() voor ongefilterde lijst met geïnstalleerde apps
+
+* nieuwe vertalingen toevoegen: Bengaals Vietnamees

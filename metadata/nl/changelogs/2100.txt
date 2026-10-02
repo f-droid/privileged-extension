@@ -1,0 +1,5 @@
+* Correctie Android.mk build
+
+* Nieuwe talen toegevoegd: Albanees, Bengaals, Frans, Hebreeuws, Hindi, Noors, Slowaaks
+
+* Allow gradle to fetch depends from Debian

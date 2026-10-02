@@ -1,0 +1,3 @@
+* Új nyelvek hozzáadása: cseh, magyar, ujgur
+
+* Támogatás hozzáadása az átcímkézhető összeállításokhoz

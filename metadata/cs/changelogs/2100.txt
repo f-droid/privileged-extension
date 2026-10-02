@@ -1,0 +1,5 @@
+* Opravena sestavení Android.mk
+
+* Přidány nové jazyky: albánština, bengálština, francouzština, hebrejština, hindština, nynorština, slovenština
+
+* Umožnění gradle stahovat si závislosti z Debianu

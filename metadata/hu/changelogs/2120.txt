@@ -1,0 +1,3 @@
+* Új API-metódus: getInstalledPackages() a telepített alkalmazások szűretlen listájához
+
+* Új fordítások hozzáadása: bengáli, vietnámi

@@ -1,0 +1,13 @@
+注意：F-Droid 需要 root 權限才能將系統權限套件安裝為系統的 "priv-app"。
+
+https://f-droid.org/packages/org.fdroid.fdroid 可以使用系統權限或許可去自行安裝、更新及移除應用程式。獲得這些權限的唯一方法就是成為一個系統應用程式。
+
+這就是爲何要安裝系統權限套件 - 不但作爲一個獨立的應用程式，而且更輕巧，可以安裝成系統應用程式，再通過 AIDL IPC 和主程式進行通信。
+
+此舉有若干優點：
+
+* 系統分區的使用量變得更少
+* 更新系統後不會移除 F-Droid
+* 透過 root 安裝到系統中的過程，比起以往更安全
+
+大多數用戶會希望安裝 "Over-The-Air" (OTA) 更新 ZIP 文件 https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota，而不是這個版本。這個版本用作更新已使用 OTA ZIP 安裝的系統權限套件。

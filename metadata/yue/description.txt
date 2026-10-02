@@ -1,0 +1,14 @@
+注意：F-Droid 須要 root 權限至裝到「超然延伸」做系統嘅「priv-app」。
+
+https://f-droid.org/packages/org.fdroid.fdroid 可以運用系統特權或權限，自行去安裝、更新或移除應用程式。攞到超然權限嘅惟一方法，就係成為系統 app。
+
+「超然延伸」應運而生：自成一個細啲嘅獨立 app，可以安裝做系統 app，並透過 AIDL IPC 同返主 app 溝通。
+
+噉樣做有幾個好處：
+
+* 系統磁碟區可以慳返啲位
+* 系統更新唔會剷走 F-Droid
+* 以 root 裝落系統嘅過程穩陣啲
+
+大部份使用者唔會直接安裝呢個組建，而係安裝無線下載 (OTA) 更新 ZIP 檔：
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota。當用 OTA ZIP 檔安裝咗「超然延伸」之後，至會用呢個組建嚟做更新。

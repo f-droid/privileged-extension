@@ -1,0 +1,3 @@
+* Reprodukálható összeállítás
+
+* OTA túlélési parancsfájl javítása

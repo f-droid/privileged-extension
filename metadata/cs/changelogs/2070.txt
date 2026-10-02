@@ -1,0 +1,3 @@
+* Opraven OTA ZIP pro Android 8.0 Oreo
+
+* aktualizace překladů

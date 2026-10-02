@@ -1,0 +1,3 @@
+*Ny API-metode: getInstalledPackages() for ufiltrerte lister av installerte programmer
+
+* Ny oversettelse: Bengalsk, vietnamesisk

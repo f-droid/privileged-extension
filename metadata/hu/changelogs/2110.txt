@@ -1,0 +1,1 @@
+Telepítési/eltávolítási probléma javítása Android 10/Q rendszeren (#47)

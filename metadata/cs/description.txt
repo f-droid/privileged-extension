@@ -1,1 +1,21 @@
+Poznámka: F-Droid vyžaduje práva root pro instalaci privilegovaného rozšíření
+jako systémovou „priv-app“.
+
+https://f-droid.org/packages/org.fdroid.fdroid umí využívat systémová práva nebo oprávnění
+k instalaci, aktualizaci a odebírání aplikací. Jediný způsob, jak
+získat tato oprávnění, je stát se systémovou aplikací.
+
+K tomu slouží Privilegované rozšíření, které je samostatnou a mnohem
+menší aplikací, lze jej nainstalovat jako systémovou aplikaci a která poté
+komunikuje s hlavní aplikací prostřednictvím protokolu AIDL IPC.
+
 To má několik výhod:
+
+* Menší využití disku v systémovém oddílu
+* Aktualizace systému neodstraní aplikaci F-Droid
+* Proces instalace do systému prostřednictvím roota je bezpečnější
+
+Místo tohoto sestavení si možná budete chtít nainstalovat tzv.
+soubor „Over-The-Air“ (OTA), který lze nalézt na
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota.  Ten je zde pro aktualizaci
+Privilegovaného rozšíření, pokud bylo nainstalováno pomocí OTA ZIP.

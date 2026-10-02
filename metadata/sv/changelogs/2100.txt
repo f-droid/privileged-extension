@@ -1,0 +1,5 @@
+* Fixa Android.mk-byggnationer
+
+* Lade till nya språk: Albanska, Bengaliska, Franska, Hebreiska, Hinduiska, Nynorska, Slovakiska
+
+* Tillåt gradle att hämta beroenden från Debian

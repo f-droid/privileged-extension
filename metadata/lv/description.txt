@@ -1,0 +1,21 @@
+Piezīme: F-Droid ir nepieciešamas superlietotāja tiesības, lai uzstādītu paaugstināto tiesību paplašinājumu
+kā sistēmas "priv-app".
+
+https://f-droid.org/packages/org.fdroid.fdroid var izmantot sistēmas tiesības vai atļaujas,
+lai uzstādītu, atjauninātu un noņemtu lietotnes. Vienīgais veids,
+kā iegūt šādas tiesības, ir kļūt par sistēmas lietotni.
+
+Šeit nāk talkā paaugstināto tiesību paplašinājums, - būdama atsevišķa lietotne
+un daudz mazāka, tā ir uzstādāma kā sistēmas lietotne un var sazināties
+ar galveno lietotni ar AIDL IPC.
+
+Tam ir vērā ņemamas priekšrocības:
+
+* Samazināts krātuves lietojums sistēmas nodalījumā
+* Sistēmas atjauninājumi nenoņem F-Droid
+* Uzstādīšana sistēmā ar superlietotāju ir drošāka
+
+Šī būvējuma vietā lielākā daļa lietotāju vēlēsies uzstādīt
+"pa gaisu" (OTA) atjauninājumu ZIP datni
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota.  Tā ir šeit, lai atjauninātu
+paaugstināto tiesību paplašinājumu, kad tas ir uzstādīts ar OTA ZIP.

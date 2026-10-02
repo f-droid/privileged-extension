@@ -1,0 +1,3 @@
+* 修復咗用喺 Android 8.0 Oreo 嘅OTA ZIP
+
+* 翻譯更新

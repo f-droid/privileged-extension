@@ -1,0 +1,3 @@
+* Reprodukovatelné sestavení
+
+* Opraven skript přežití OTA
