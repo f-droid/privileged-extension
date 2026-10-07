@@ -1,3 +1,5 @@
+On Android version 12 and later, latest F-Droid Client supports unattended updates without the need to flash Privileged Extension (F-Droid OTA). Read more at https://f-droid.org/2024/02/08/twif.html#f-droid-core
+
 Note: F-Droid requires root privileges to install Privileged Extension
 as a system "priv-app".
 
