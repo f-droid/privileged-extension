@@ -55,6 +55,22 @@ else
   mount "/dev/block/bootdevice/by-name/system" "$MOUNT_POINT"
 fi
 
+if [ "$?" -ne "0" ]; then
+  FAILED_MOUNT_POINT="$MOUNT_POINT"
+
+  # Some Android devices (using Magisk) use a "systemless root"
+  # On such devices, the mount point should be at /system_root
+  SYSTEM="/system_root/system"
+  MOUNT_POINT="/system_root"
+  mount -o rw "$MOUNT_POINT"
+
+  if [ "$?" -ne "0" ]; then
+    echo -n -e "ui_print Failed to mount system partition at ($FAILED_MOUNT_POINT)\n" > /proc/self/fd/$2
+    echo -n -e 'ui_print Installation cannot continue, exiting...\n' > /proc/self/fd/$2
+    exit 1
+  fi
+fi
+
 rm -rf "${SYSTEM}/app/FDroid"*
 rm -rf "${SYSTEM}/priv-app/FDroid"*
 rm -rf "${SYSTEM}/app/F-Droid"*
