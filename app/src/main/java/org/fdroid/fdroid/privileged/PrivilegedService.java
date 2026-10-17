@@ -59,6 +59,9 @@ public class PrivilegedService extends Service {
             "android.permission.INSTALL_PACKAGES";
     private static final String EXTRA_LEGACY_STATUS = "android.content.pm.extra.LEGACY_STATUS";
 
+    // From AOSP source code, removed in android pie and above
+    private static final int ACTION_INSTALL_EXTERNAL = 8;
+
     private AccessProtectionHelper accessProtectionHelper;
 
     private Method installMethod;
@@ -160,10 +163,13 @@ public class PrivilegedService extends Service {
      * https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/06163dec5a23bb3f17f7e6279f6d46e1851b7d16
      */
     @TargetApi(24)
-    private void doPackageStage(Uri packageURI) {
+    private void doPackageStage(Uri packageURI, boolean installToExternal) {
         final PackageManager pm = getPackageManager();
         final PackageInstaller.SessionParams params = new PackageInstaller.SessionParams(
                 PackageInstaller.SessionParams.MODE_FULL_INSTALL);
+        if (installToExternal) {
+            params.setInstallLocation(PackageInfo.INSTALL_LOCATION_PREFER_EXTERNAL);
+        }
         final PackageInstaller packageInstaller = pm.getPackageInstaller();
         PackageInstaller.Session session = null;
         try {
@@ -213,7 +219,7 @@ public class PrivilegedService extends Service {
             }
 
             if (Build.VERSION.SDK_INT >= 24) {
-                doPackageStage(packageURI);
+                doPackageStage(packageURI, (flags & ACTION_INSTALL_EXTERNAL) != 0);
                 mCallback = callback;
             } else {
                 installPackageImpl(packageURI, flags, installerPackageName, callback);
