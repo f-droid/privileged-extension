@@ -1,0 +1,1 @@
+Ispravljen nedostajuća autorizacija prilikom dohvaćanja informacija o instaliranim paketima.
