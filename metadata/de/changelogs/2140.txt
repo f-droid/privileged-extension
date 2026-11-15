@@ -1,0 +1,1 @@
+Problem fehlender Berechtigungen beim Abrufen von Informationen zu installierten Paketen behoben.
