@@ -1,0 +1,1 @@
+Opravit chybějící autorizaci při získávání informací o nainstalovaných balíčcích.
