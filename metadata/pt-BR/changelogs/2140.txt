@@ -1,0 +1,1 @@
+Corrige a falta de autorização ao obter informações sobre pacotes instalados.
