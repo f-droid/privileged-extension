@@ -1,0 +1,1 @@
+Ištaisytas trūkstamas leidimas gaunant įdiegtų paketų informaciją.
