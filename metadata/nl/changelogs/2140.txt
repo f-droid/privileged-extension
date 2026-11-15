@@ -1,0 +1,1 @@
+Los ontbrekende authorizatieproblemen op wanneer u informatie over geïnstalleerde pakketten ophaalt.
