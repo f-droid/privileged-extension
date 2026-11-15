@@ -1,0 +1,1 @@
+Oprava chýbajúcich autorizácii pri získavaní informácii o nainštalovaných balíkoch.
