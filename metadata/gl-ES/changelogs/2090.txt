@@ -1,0 +1,3 @@
+* Engadíronse novos idiomas: checo, húngaro, uigur
+
+* Engadiuse compatibilidade para versións «whitelabel»

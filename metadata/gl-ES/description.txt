@@ -1,0 +1,21 @@
+Nota: F-Droid require privilexios de root para instalar a "Privileged Extension"
+como unha "priv-app" (aplicación con privilexios) do sistema.
+
+https://f-droid.org/packages/org.fdroid.fdroid pode utilizar privilexios ou permisos do sistema
+para instalar, actualizar e eliminar aplicacións por si mesma. O único xeito de
+obter eses privilexios é converterse nunha aplicación do sistema.
+
+É aquí onde entra en xogo a "Privileged Extension": ao ser unha aplicación separada
+e moito máis lixeira, pódese instalar como unha aplicación do sistema e comunicarse
+coa aplicación principal mediante AIDL IPC.
+
+Isto presenta varias vantaxes:
+
+* Menor uso de espazo na partición do sistema
+* As actualizacións do sistema non eliminan F-Droid
+* O proceso de instalación no sistema mediante root é máis seguro
+
+No lugar desta versión, a maioría dos usuarios preferirán instalar o
+ficheiro ZIP de actualización "Over-The-Air" (OTA), dispoñible en
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota. Este ficheiro serve para actualizar
+a "Privileged Extension" cando esta foi instalada mediante o ZIP OTA.
