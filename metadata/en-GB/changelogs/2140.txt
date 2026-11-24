@@ -1,0 +1,1 @@
+Fix missing authorisation when geting information on installed packages.

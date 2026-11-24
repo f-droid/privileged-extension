@@ -1,0 +1,1 @@
+Fikset manglende autorisering ved innhenting av informasjon om installerte pakker.

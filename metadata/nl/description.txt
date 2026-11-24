@@ -16,6 +16,6 @@ Dit heeft verschillende voordelen:
 * Het installatieproces in het systeem via root is veiliger
 
 De meeste gebruikers zullen niet deze build maar het
-"Over-The-Air" (OTA) update ZIP bestand installeren, genaamd
+"Over-The-Air" (OTA) update ZIP-bestand installeren, genaamd
 https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota.  Deze is hier om
 de Bevoorrechtte Extensie te updaten als deze is geïnstalleerd via de OTA ZIP.

@@ -1,0 +1,1 @@
+Parandasime puuduva autentimise, kui laaditakse teavet paigaldatud paketite kohta.

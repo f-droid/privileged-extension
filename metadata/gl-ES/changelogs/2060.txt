@@ -1,0 +1,3 @@
+* Compilación reproducible
+
+* Corrixiuse o script que persiste tras as actualizacións OTA

@@ -1,0 +1,1 @@
+Kurulu paketlerde bilgi alınırken ortaya çıkan yetkilendirme eksikliği sorunu giderildi.

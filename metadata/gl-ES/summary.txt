@@ -1,0 +1,1 @@
+Servizos para permitir que o F-Droid instale e actualize apps de xeito seguro

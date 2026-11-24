@@ -1,0 +1,1 @@
+Corregge la mancanza di autorizzazione durante il recupero delle informazioni sui pacchetti installati.
